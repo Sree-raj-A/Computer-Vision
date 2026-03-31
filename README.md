@@ -174,15 +174,6 @@ python BatchCLI_Face_Blur_for_Privacy.py -b 10   # Not blurry
 
 ```
 
-| Value | Effect |
-
-|-------|--------|
-
-| 2     | Very blurry (good for privacy)
-
-| 4     | Default. Blurry, but not too much |
-
-| 8+    | Not very blurry you can still see some face features |
 
 ### Help
 
