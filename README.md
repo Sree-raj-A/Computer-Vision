@@ -1,6 +1,6 @@
 # BatchCLI Face Blur for Privacy
 
-This is a Python CLI program that censors detected faces in images. It handles a batch of images and output the censored batch to a newly created folder. 
+This is a Python CLI program that censors detected faces in images. It handles a batch of images and outputs the censored batch to a newly created folder. 
 
 ---
 
@@ -24,11 +24,11 @@ This is a Python CLI program that censors detected faces in images. It handles a
 
 ## Overview
 
-This project uses computer vision to blur faces in pictures. It can do a things:
+This project uses computer vision to blur faces in pictures. It does the following:
 
-- **Find faces** in pictures using a kind of computer program
+- **Detect faces** in pictures using OpenCV
 
-- **Make faces blurry** so you cannot see them clearly
+- **Make faces blurry** so the person cannot be identified
 
 - **Process lots of pictures** at the time using a simple command-line interface
 
@@ -194,26 +194,4 @@ python BatchCLI_Face_Blur_for_Privacy.py --help
 
 ---
 
-## How It Works
 
-The tool works in three steps:
-
-1. **Find faces:** The tool uses a computer program to find faces in each picture.
-
-2. **Make faces blurry:** The tool makes each face blurry using a kind of blur.
-
-3. **Save pictures:** The tool saves the pictures to a separate folder.
-
----
-
-## Limitations
-
-The tool has a limitations:
-
-- **Only finds faces looking at the camera:** The tool can only find faces that are looking directly at the camera.
-
-- **Does not work well with lighting:** The tool may not work well with pictures that're too dark or too bright.
-
-- **Only processes pictures in the folder:** The tool can only process pictures that're in the same folder, as the tool.
-
-- **Does not work with videos:** The tool can only process pictures, not videos.
