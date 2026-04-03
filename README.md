@@ -9,8 +9,6 @@ This is a Python CLI program that **blurs** detected faces in images. It handles
 - [Installation](#installation)
 - [Usage](#usage)
 - [Configuration](#configuration)
-- [How It Works](#how-it-works)
-- [Limitations](#limitations)
 ---
 ## Overview
 This project uses computer vision to blur faces in images. It does the following:
