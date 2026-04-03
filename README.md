@@ -19,6 +19,7 @@ This project uses computer vision to blur faces in images. It does the following
 - **Process multiple images at a time** using a simple command-line interface
 
 The tool looks for image files in the same folder, finds faces in each image, blurs them, and saves the processed images to a separate folder. It does not modify the original images.
+You do not need a **GPU or dedicated graphics card** to use this tool. It works on any computer, as long the libraries are supported.
 
 ---
 ## Prerequisites
@@ -39,7 +40,6 @@ You need to install OpenCV to use this tool. OpenCV is a computer vision library
 ```bash
 pip install opencv-python
 ```
-> **Note:** You do not need a **GPU or dedicated graphics card** to use this tool. It works on any computer.
 ---
 ## Installation
 To install the tool you need to do two things:
@@ -100,7 +100,3 @@ python BatchCLI_Face_Blur_for_Privacy.py -b 10   # Subtle blur
 ```bash
 python BatchCLI_Face_Blur_for_Privacy.py --help
 ```
-
-- "in the folder as the tool" → "in the same folder as the tool" — grammar
-- "`.jpg` `.jpeg`..Png`" → "`.jpg`, `.jpeg`, and `.png`" — formatting/grammar
-- Example output messages corrected to match actual script terminology
